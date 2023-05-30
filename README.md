@@ -1,10 +1,18 @@
 # mermaidRoadmap
 
 ```mermaid
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+flowchart LR
+    A["Internet"] --> B["DNS"]
+    A --> C["HTTP/HTTPS"]
+    A --> D["CDN"]
+    click C "https://www.github.com" _blank
+```
+
+
+```mermaid
+flowchart LR
+    A["Soft Skills"] --> B["Critical Thinking"]
+    A --> C["Keeping Up To Date"]
+    A --> D["Estimating"]
+    A --> E["Task Breakdown"]
 ```
